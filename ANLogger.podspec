@@ -16,4 +16,5 @@ Pod::Spec.new do |spec|
 
   spec.dependency 'ANCategories', '~> 1.0'
   spec.dependency 'CocoaLumberjack', '~> 2.0.0-rc'
+  spec.ios.deployment_target = '6.0'
 end
