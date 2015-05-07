@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name     = 'ANLogger'
-  spec.version  = '1.0.1'
+  spec.version  = '1.0.2'
   spec.license  = { :type => 'MIT' }
   spec.homepage = 'https://github.com/anodamobi/ANLogger'
   spec.authors  = { 'Oksana Kovalchuk' => 'oksana@anoda.mobi' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.framework = "Foundation"
   spec.requires_arc = true
 
-  spec.dependency 'ANCategories', '~> 1.0'
-  spec.dependency 'CocoaLumberjack', '~> 2.0.0-rc'
+  spec.dependency 'ANCategories', '~> 1.0.6’
+  spec.dependency 'CocoaLumberjack', '~> 2.0.0'
   spec.ios.deployment_target = '6.0'
 end
