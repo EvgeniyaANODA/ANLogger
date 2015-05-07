@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.framework = "Foundation"
   spec.requires_arc = true
 
-  spec.dependency 'ANCategories', '~> 1.0.6’
+  spec.dependency 'ANCategories', '~> 1.0.6'
   spec.dependency 'CocoaLumberjack', '~> 2.0.0'
   spec.ios.deployment_target = '6.0'
 end
